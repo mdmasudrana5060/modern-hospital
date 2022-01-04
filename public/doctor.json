@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Sonia",
+        "description": "I am  a eye specialist.",
+        "img": "https://i.postimg.cc/SNxxhhLH/Background-1.png",
+        "Phone": "017815492",
+        "email": "sonia@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Motin",
+        "description": "I am e heart surgeon.",
+        "img": "https://i.postimg.cc/mgcZPy5w/Background-3.png",
+        "phone": "01546321",
+        "email": "motin@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Kareena",
+        "description": "I am a dental and oral specialist",
+        "img": "https://i.postimg.cc/NfCfGzpF/Background-2.png",
+        "phone": "01549",
+        "email": "kareena@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Dr.Jorina",
+        "description": "I am a Physiotherapist",
+        "img": "https://i.postimg.cc/FH2r3JtQ/Background-4.png",
+        "phone": "0549269",
+        "email": "jorina@gmail.com"
+    }
+]

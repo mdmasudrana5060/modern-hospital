@@ -1,0 +1,22 @@
+.upper-side{
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    grid-gap:10px;
+    background-color: rgb(245, 218, 184);
+    padding:10px;
+}
+.upper-left-side{
+    text-align:left;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.upper-right-side{
+    text-align: left;
+    font-size: 20px;
+    margin-left:300px
+}
+.lower-side{
+    background-color: rgb(211, 174, 125);
+    text-align: center;
+
+}
