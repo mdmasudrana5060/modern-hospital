@@ -2,10 +2,11 @@ import React from 'react';
 import "./Register.css";
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+
+import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
-    const { GoogleSignIn } = useFirebase();
+    const { GoogleSignIn } = useAuth();
     return (
         <div className='register-form'>
 

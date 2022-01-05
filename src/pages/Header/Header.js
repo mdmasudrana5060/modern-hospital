@@ -1,20 +1,21 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
+
 import './Header.css';
 
 
 
 
 const Header = () => {
-    const { user, LogOut } = useFirebase();
+    const { user, LogOut } = useAuth();
 
     return (
         <div>
             <Navbar expand="lg" className='navbar' >
                 <Container>
-                    <Navbar.Brand className='hospital-name' >City Hospital</Navbar.Brand>
+                    <Navbar.Brand className='hospital-name' >Modern Hospital</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -30,11 +31,14 @@ const Header = () => {
 
                         <Navbar.Text>
                             {/* <Nav.Link as={Link} to={"/register"} className="link">Register</Nav.Link> */}
+                            <span>{user.displayName}</span>
 
 
                             {
                                 user.email ?
+
                                     <Nav.Link onClick={LogOut} className="link">LogOut</Nav.Link>
+
 
                                     : <Nav.Link as={Link} to={"/register"} className="link">Register</Nav.Link>
                             }

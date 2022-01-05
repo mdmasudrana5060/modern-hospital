@@ -13,7 +13,7 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>City Hospital</h3>
+                        <h3>Modern Hospital</h3>
                         <p>We are here to treat you the best.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

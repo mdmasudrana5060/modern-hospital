@@ -6,14 +6,14 @@ const Footer = () => {
         <div>
             <div className='upper-side'>
                 <div className='upper-left-side'>
-                    <h2>City Hospital</h2>
+                    <h2>Modern Hospital</h2>
                     <p>We here to serve you. <br />
                         Hosue no-16,Road no-16,Abul Kashem Avenue ,Dhaka</p>
                 </div>
                 <div className='upper-right-side'>
                     <h4>Contact Details</h4>
                     <p>Phone:0191659265 <br />
-                        Email:cityhospital14@gmail.com</p>
+                        Email:modernhospital14@gmail.com</p>
 
                 </div>
 
