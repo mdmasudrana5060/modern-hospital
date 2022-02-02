@@ -1,3 +1,18 @@
 .about{
     margin-bottom: 400px;
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+  
+    
+    
+
+}
+.about-text{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+   
+}
+.about-text p{
+    font-weight: 600;
 }

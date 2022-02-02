@@ -1,11 +1,8 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
 
-
-
-const Doctor = props => {
-    const { name, img, description } = props.doctor;
-
+const DoctorDetail = (props) => {
+    const { name, img, description, phone, email } = props.doctor;
     return (
         <CardGroup>
             <Card className="border-0 shadow">
@@ -16,11 +13,14 @@ const Doctor = props => {
                         {description}
                     </Card.Text>
                 </Card.Body>
-
+                <Card.Footer className="border-0 bg-white text-center">
+                    <p>call:{phone} <br />
+                        email:{email}</p>
+                </Card.Footer>
             </Card>
 
         </CardGroup>
     );
 };
 
-export default Doctor;
+export default DoctorDetail;

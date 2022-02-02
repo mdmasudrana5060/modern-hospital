@@ -31,14 +31,14 @@
         "id": 5,
         "Name": "Digital Lab",
         "Description": "Modern Hospital have the digital instrument to treat the patient.We care about you.",
-        "price": 10,
+        "price": 8,
         "img": "https://i.postimg.cc/Gh2m1KLK/Background-4.png"
     },
     {
         "id": 6,
         "Name": "Ceaseran",
         "Description": "Modern Hospital have the best doctors and digital  instrument to deliver your baby.We care about you.",
-        "price": 10,
+        "price": 15,
         "img": "https://i.postimg.cc/RVDVCtqB/Background-5.png"
     }
 ]

@@ -9,6 +9,12 @@ import Contact from './pages/Contact/Contact';
 import Register from './pages/Register/Register';
 import Login from './pages/Login/Login';
 import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+import HospitalServices from './pages/HospitalServices/HospitalServices';
+import DoctorDetails from './pages/DoctorDetails/DoctorDetails';
+import SingleService from './pages/SingleService/SingleService';
+import NotFound from './pages/NotFound/NotFound';
+
 
 function App() {
   return (
@@ -39,6 +45,18 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <PrivateRoute path="/hospitalservice">
+              <HospitalServices></HospitalServices>
+            </PrivateRoute>
+            <PrivateRoute path="/doctordetails">
+              <DoctorDetails></DoctorDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/singleservice/:Name">
+              <SingleService></SingleService>
+            </PrivateRoute>
+            <Route path='/*'>
+              <NotFound></NotFound>
             </Route>
 
           </Switch>

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Service.css';
 import { Button, Card, CardGroup, } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Service = props => {
-    const { Name, Description, img } = props.service;
+    const { Name, Description, img, id } = props.service;
 
     return (
         <CardGroup>
@@ -14,9 +15,11 @@ const Service = props => {
                     <Card.Text>
                         {Description}
                     </Card.Text>
+
                 </Card.Body>
                 <Card.Footer className="border-0 bg-white text-center">
-                    <Button>Detail</Button>
+                    <Link to={`/singleservice/${Name}`}><Button>Detail</Button></Link>
+
                 </Card.Footer>
             </Card>
 
